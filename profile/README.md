@@ -1,40 +1,103 @@
 <div align="center">
 
-# 🏝️ Island-Team
+<a href="https://os-island.com">
+  <img src="https://os-island.com/IslandTeam.png" width="150" alt="Island Team logo">
+</a>
 
-**We build the robotic brain** — high-level control and decision systems for embodied agents.
+# Island Team
 
-*Let embodied agents come to life.* Dudulu~
+### Building embodied intelligence—from perception and memory to safety-gated action.
+
+We develop **IslandOS Aether**, an open platform that connects model-driven cognition to simulated and physical worlds through explicit contracts and controlled execution.
+
+[![Website](https://img.shields.io/badge/Website-os--island.com-126BCE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-island.com)
+[![Aether](https://img.shields.io/badge/Explore-IslandOS_Aether-071A3D?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Island-Team/Island-egia)
+[![GitHub](https://img.shields.io/badge/Repositories-Island_Team-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Island-Team/repositories)
 
 </div>
 
 ---
 
-## Who we are
+## IslandOS Aether
 
-Island-Team is an open-source dev crew with one obsession: giving robots a brain that actually works. Not another wrapper around a chat model — a full decision stack that understands orders, decomposes tasks, remembers what happened, and recovers when the world misbehaves.
-
-Our answer is the **GECA–ECOS architecture**. GECA is the brain: cognition, planning, memory. ECOS is the body: execution, world state, real-time safety. They meet over versioned MCP capability contracts, so the brain never has to know what metal it's riding — the same agent drives a mock rig, a simulator, or a factory floor.
+Aether separates cognition from physical execution. The **EGI Agent** understands context, builds missions and plans, and requests typed primitives. **EOS** owns device integration and admits every command through a controlled action gate before it reaches hardware.
 
 ```mermaid
 flowchart LR
-  operator["Operator / WebUI"] --> geca["GECA<br/>brain · cognition & decision"]
-  geca -->|"MCP contracts"| ecos["ECOS<br/>body · execution & safety"]
-  ecos --> devices["Devices / Sim"]
+    human["Operator"] --> web["Web & Port"]
+    web --> egia["EGI Agent<br/>perceive · plan · remember"]
+    models["Local models<br/>speech · vision · language"] -.-> egia
+    egia -->|"gRPC · typed contracts"| eos["EOS<br/>execute · observe · protect"]
+    models -.-> eos
+    eos --> world["Robots · devices · simulation"]
+
+    classDef cognition fill:#eaf3ff,stroke:#126bce,color:#071a3d
+    classDef execution fill:#071a3d,stroke:#126bce,color:#ffffff
+    classDef support fill:#f6f8fa,stroke:#8c959f,color:#24292f
+    class egia cognition
+    class eos execution
+    class human,web,models,world support
 ```
 
-## Featured projects
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/Island-Team/Island-egia">Island-egia</a></h3>
+      <p><strong>EGI Agent · cognition and orchestration</strong></p>
+      <p>Turns observations and operator intent into missions and plans, coordinates memory and monitoring, and safety-gates primitive requests before handing them to the embodied runtime.</p>
+      <p><code>Python 3.12+</code> · <code>gRPC</code> · <code>WebSocket</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ <a href="https://github.com/Island-Team/Island-eos">Island-eos</a></h3>
+      <p><strong>Embodied OS · execution and hard safety</strong></p>
+      <p>Integrates devices, projects body state, exposes typed primitives, and provides the final controlled path to hardware—with demo and optional ROS 2 backends.</p>
+      <p><code>C++17</code> · <code>gRPC</code> · <code>ProtoJSON</code></p>
+    </td>
+  </tr>
+</table>
 
-**[Island-GECA](https://github.com/Island-Team/Island-GECA)** — the General Embodied Cognition Agent. Order understanding, task decomposition, state correlation, and recovery decisions, with every outbound action passing a safety gate. Python 3.12, MCP, asyncio; the agent model sits behind a Protocol seam, so Anthropic, OpenAI, or a local server are drop-in swaps.
+## The ecosystem
 
-**[Island-ECOS](https://github.com/Island-Team/Island-ECOS)** — the execution runtime. Owns the world model and a lock-free state service, orchestrates tasks, and enforces admission and real-time safety before anything reaches a device. C++17, Boost, JSON-RPC over WebSocket.
+| Project | Role |
+| :--- | :--- |
+| **[Island-models](https://github.com/Island-Team/Island-models)** | Local serving and lifecycle tooling for speech, vision, language, translation, embedding, pose, and generative models. |
+| **[Island-Base](https://github.com/Island-Team/Island-Base)** | Guarded C++ interfaces for the Jueying X30 vendor protocols—pose, navigation, manual motion, and launcher bridging. |
+| **[Island-port](https://github.com/Island-Team/Island-port)** | Rust HTTP/WebSocket gateway for identity, messaging, documents, virtual wallets, and the Transnet boundary. |
+| **[Island-web](https://github.com/Island-Team/Island-web)** | Bilingual web experience for the public site and Island operator surfaces. |
 
-## What we work with
+## Research & simulation
 
-Agent models are the center of gravity: LLM/VLA fine-tuning, PyTorch, MCP tool ecosystems. Around them, hard engineering — Python and modern C++, async and lock-free runtimes, simulation-first development.
+> ### 🌱 [Island OS](https://github.com/Island-Team/Island)
+>
+> A Rust-native research world where an **anima** inhabits **METALAND** with a body, senses, episodic memory, and an **Action–Critic–Experience** loop. It is our simulation track for exploring persistent, consequence-shaped AI characters—not a claim that today’s systems are conscious.
 
-On robotics: we think ROS is a fine 2007 idea having a rough 2026. We're building a post-ROS, AI-native control stack instead of layering more abstraction on top of it.
+## What guides us
 
-## Find us
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>◉ Embodied by design</h3>
+      <p>Intelligence is grounded in perception, state, action, and what happens next—not only a text exchange.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>◇ Contracts first</h3>
+      <p>Typed, versioned boundaries keep cognition, models, runtimes, and hardware independently replaceable.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⛨ Safety at the boundary</h3>
+      <p>Planning can stay creative; physical action still passes through explicit validation and controlled execution.</p>
+    </td>
+  </tr>
+</table>
 
-🏝️ [os-island.com](https://www.os-island.com/)
+---
+
+<div align="center">
+
+**AI · Agent · Innovation**
+
+[Website](https://os-island.com) · [Repositories](https://github.com/orgs/Island-Team/repositories) · [Contact](mailto:ashexlv278@gmail.com)
+
+<sub>Let embodied agents come to life. Dudulu~</sub>
+
+</div>
