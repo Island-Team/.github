@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://os-island.com">
-  <img src="https://os-island.com/IslandTeam.png" width="150" alt="Island Team logo">
+  <img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/island-team-logo.png" width="132" alt="Island Team logo">
 </a>
 
 # Island Team
@@ -13,6 +13,10 @@ We develop **IslandOS Aether**, an open platform that connects model-driven cogn
 [![Website](https://img.shields.io/badge/Website-os--island.com-126BCE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-island.com)
 [![Aether](https://img.shields.io/badge/Explore-IslandOS_Aether-071A3D?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Island-Team/Island-egia)
 [![GitHub](https://img.shields.io/badge/Repositories-Island_Team-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Island-Team/repositories)
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/island-team-hero.png" width="100%" alt="Island Team embodied-intelligence pipeline: perception and models flow through cognition and a safety gate into physical action">
 
 </div>
 
@@ -42,13 +46,15 @@ flowchart LR
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/Island-Team/Island-egia">Island-egia</a></h3>
+      <p align="center"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/egia-logo.png" width="72" alt="EGIA logo"></p>
+      <h3 align="center"><a href="https://github.com/Island-Team/Island-egia">Island-egia</a></h3>
       <p><strong>EGI Agent · cognition and orchestration</strong></p>
       <p>Turns observations and operator intent into missions and plans, coordinates memory and monitoring, and safety-gates primitive requests before handing them to the embodied runtime.</p>
       <p><code>Python 3.12+</code> · <code>gRPC</code> · <code>WebSocket</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚙️ <a href="https://github.com/Island-Team/Island-eos">Island-eos</a></h3>
+      <p align="center"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/eos-logo.png" width="72" alt="EOS logo"></p>
+      <h3 align="center"><a href="https://github.com/Island-Team/Island-eos">Island-eos</a></h3>
       <p><strong>Embodied OS · execution and hard safety</strong></p>
       <p>Integrates devices, projects body state, exposes typed primitives, and provides the final controlled path to hardware—with demo and optional ROS 2 backends.</p>
       <p><code>C++17</code> · <code>gRPC</code> · <code>ProtoJSON</code></p>
