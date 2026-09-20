@@ -71,6 +71,70 @@ flowchart LR
 | **[Island-port](https://github.com/Island-Team/Island-port)** | Rust HTTP/WebSocket gateway for identity, messaging, documents, virtual wallets, and the Transnet boundary. |
 | **[Island-web](https://github.com/Island-Team/Island-web)** | Bilingual web experience for the public site and Island operator surfaces. |
 
+## Our Teams / Groups
+
+Island Team brings cognition, software, and hardware together through six focused groups. Each group owns a distinct layer of the platform while collaborating through shared, typed interfaces.
+
+### [Agent](https://github.com/orgs/Island-Team/teams/agent)
+
+> **Team overview:** Embodied-agent cognition, memory, planning, orchestration, and safety-gated decision-making.
+
+The Agent group develops the cognitive layer that turns admitted observations and operator intent into structured missions, plans, and typed primitive requests. Its work covers bounded context, model lanes, active perception, memory, tool use, monitoring, and cognitive safety gates. By communicating with EOS through stable contracts, the group keeps planning independent from hardware authority and supports sandbox, live-robot, and fleet deployments.
+
+**Focus:** agent architecture · mission planning · memory · model/tool orchestration · cognitive safety
+
+**Representative projects:** [Island-egia](https://github.com/Island-Team/Island-egia) · [Island](https://github.com/Island-Team/Island)
+
+### [Arm](https://github.com/orgs/Island-Team/teams/arm)
+
+> **Team overview:** Robotic manipulation, motion planning, teleoperation, grasping, and arm integration.
+
+The Arm group builds the manipulation stack that lets Island systems interact precisely with the physical world. Its current work includes ROS 2 control for RealMan RM65 arms, RGB-D perception, gripper integration, motion and grasp planning, teleoperation, and dual-arm workcells. The group also develops demonstration-data and VLA-policy deployment paths while keeping hardware drivers and safety-critical execution clearly separated from learned policies.
+
+**Focus:** manipulation · motion planning · grasping · teleoperation · policy deployment
+
+**Representative projects:** [Island-Arm](https://github.com/Island-Team/Island-Arm) · [Island-Teaching-Arm](https://github.com/Island-Team/Island-Teaching-Arm) · [rm65-openpi](https://github.com/Island-Team/rm65-openpi) · [Robocup_GECA_ARM](https://github.com/Island-Team/Robocup_GECA_ARM)
+
+### [Base](https://github.com/orgs/Island-Team/teams/base)
+
+> **Team overview:** Mobile-robot locomotion, navigation, simulation, deployment, and guarded base control.
+
+The Base group develops the guarded interfaces and deployment tools through which robots move in their environments. Current platforms include Jueying X30 vendor transports for pose, bounded manual motion, and route execution, plus Unitree A1 development across ROS 1/Gazebo and ROS 2. The group keeps platform-specific protocols behind stable boundaries so higher-level runtimes do not need to depend on wire formats or vendor control details.
+
+**Focus:** locomotion · navigation · base drivers · simulation · robot-side deployment
+
+**Representative projects:** [Island-Base](https://github.com/Island-Team/Island-Base) · [Base-UnitreeA1-2607](https://github.com/Island-Team/Base-UnitreeA1-2607) · [isaacsim](https://github.com/Island-Team/isaacsim)
+
+### [FrontBackend](https://github.com/orgs/Island-Team/teams/frontbackend)
+
+> **Team overview:** Web experiences, service APIs, communication gateways, and operator-facing tools.
+
+The FrontBackend group creates the interfaces through which people and services interact with Island. It develops the bilingual public website and Aether browser console, including views of health, missions, models, perceptions, primitives, and robot backends. It also maintains the HTTP/WebSocket gateway for authentication, profiles, messaging, discussion documents, virtual wallets, Transnet integration, and optional application hosting.
+
+**Focus:** frontend engineering · service APIs · WebSocket communication · identity · operator experience
+
+**Representative projects:** [Island-web](https://github.com/Island-Team/Island-web) · [Island-port](https://github.com/Island-Team/Island-port)
+
+### [Hardware](https://github.com/orgs/Island-Team/teams/hardware)
+
+> **Team overview:** Physical-system design and the integration of electronics, sensors, actuators, and mechanics.
+
+The Hardware group turns system designs into reliable physical platforms. It selects and integrates sensors, actuators, compute, power, communications, and mechanical components, then works with the Arm and Base groups on calibration and safe software exposure. The group supports assembly, bring-up, teleoperation hardware, diagnostics, and iterative prototype validation on the team's own robot platforms.
+
+**Focus:** mechatronics · electronics · sensing · actuation · system integration · hardware validation
+
+**Representative project:** [Island-Teaching-Arm](https://github.com/Island-Team/Island-Teaching-Arm)
+
+### [MachineLearning](https://github.com/orgs/Island-Team/teams/machinelearning)
+
+> **Team overview:** Training, evaluation, deployment, and operation of perception and reasoning models.
+
+The MachineLearning group develops and operates the models that help Island systems perceive, understand, and respond to the world. Its work spans dataset preparation, training and evaluation pipelines, GPU and edge deployment, and config-driven local serving. Current model services cover speech, voice activity, vision-language and language reasoning, translation, embeddings, pose and posture, image-to-video, and image-to-3D workflows.
+
+**Focus:** model training · evaluation · inference · computer vision · language and speech · MLOps
+
+**Representative projects:** [Island-models](https://github.com/Island-Team/Island-models) · [PoseDetection](https://github.com/Island-Team/PoseDetection) · [YOLO-v11-training_pipeline](https://github.com/Island-Team/YOLO-v11-training_pipeline)
+
 ## Research & simulation
 
 > ### 🌱 [Island OS](https://github.com/Island-Team/Island)
