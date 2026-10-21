@@ -11,12 +11,19 @@
 We develop **IslandOS Aether**, an open platform that connects model-driven cognition to simulated and physical worlds through explicit contracts and controlled execution.
 
 [![Website](https://img.shields.io/badge/Website-os--island.com-126BCE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-island.com)
-[![Aether](https://img.shields.io/badge/Explore-IslandOS_Aether-071A3D?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Island-Team/Island-egia)
+[![Aether EOS](https://img.shields.io/badge/Release-Aether_EOS_1.0.0-071A3D?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0)
 [![GitHub](https://img.shields.io/badge/Repositories-Island_Team-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Island-Team/repositories)
 
 <br><br>
 
 <img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/island-team-hero.png" width="100%" alt="Island Team embodied-intelligence pipeline: perception and models flow through cognition and a safety gate into physical action">
+
+<p>
+  <a href="#islandos-aether">Platform</a> ·
+  <a href="#the-ecosystem">Ecosystem</a> ·
+  <a href="#our-teams--groups">Teams</a> ·
+  <a href="#research--simulation">Research</a>
+</p>
 
 </div>
 
@@ -24,7 +31,29 @@ We develop **IslandOS Aether**, an open platform that connects model-driven cogn
 
 ## IslandOS Aether
 
-Aether separates cognition from physical execution. The **EGI Agent** understands context, builds missions and plans, and requests typed primitives. **EOS** owns device integration and admits every command through a controlled action gate before it reaches hardware.
+Aether separates cognition from physical execution. The **EGI Agent** understands context, builds missions and plans, and requests typed primitives. **EOS** owns device integration, read-only body and scene state, and command admission through an action gate before hardware execution.
+
+**Current public EOS release:** [Aether EOS 1.0.0](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0) (published October 20, 2026). The [Aether-EOS-R source repository](https://github.com/Island-Team/Aether-EOS-R) includes a hardware-free demo profile, public ALSA/aplay, V4L2, and optional ROS 2 backends, Agent–EOS contracts, and a native skill SDK. Model services and deployment-specific vendor integrations are supplied separately.
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>🧪 Try EOS</h3>
+      <p>Start with the hardware-free demo profile and simulator.</p>
+      <p><a href="https://github.com/Island-Team/Aether-EOS-R#quick-start">Quick start →</a></p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🔌 Connect a robot</h3>
+      <p>Use public device adapters and deployment-owned hardware profiles.</p>
+      <p><a href="https://github.com/Island-Team/Aether-EOS-R#configure-a-robot">Configuration guide →</a></p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🛡️ Build safely</h3>
+      <p>Use typed contracts, command admission, and native skills.</p>
+      <p><a href="https://github.com/Island-Team/Aether-EOS-R/tree/v1.0.0/docs/eos">EOS documentation →</a></p>
+    </td>
+  </tr>
+</table>
 
 ```mermaid
 flowchart LR
@@ -54,10 +83,10 @@ flowchart LR
     </td>
     <td width="50%" valign="top">
       <p align="center"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/eos-logo.png" width="72" alt="EOS logo"></p>
-      <h3 align="center"><a href="https://github.com/Island-Team/Island-eos">Island-eos</a></h3>
-      <p><strong>Embodied OS · execution and hard safety</strong></p>
-      <p>Integrates devices, projects body state, exposes typed primitives, and provides the final controlled path to hardware—with demo and optional ROS 2 backends.</p>
-      <p><code>C++17</code> · <code>gRPC</code> · <code>ProtoJSON</code></p>
+      <h3 align="center"><a href="https://github.com/Island-Team/Aether-EOS-R">Aether-EOS-R</a></h3>
+      <p><strong>Embodied OS · execution and hard safety · v1.0.0</strong></p>
+      <p>Connects robot devices and perception, exposes read-only state, validates commands at the action gate, and runs native skills. Includes a hardware-free demo and public ROS 2 and host-device adapters.</p>
+      <p><code>C++17</code> · <code>gRPC</code> · <code>HTTP/ProtoJSON + SSE</code> · <a href="https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0">Release notes</a></p>
     </td>
   </tr>
 </table>
@@ -74,6 +103,11 @@ flowchart LR
 ## Our Teams / Groups
 
 Island Team brings cognition, software, and hardware together through six focused groups. Each group owns a distinct layer of the platform while collaborating through shared, typed interfaces.
+
+| 🧠 Intelligence | 🦾 Physical systems | 🌐 Experience |
+| :--- | :--- | :--- |
+| [Agent](#agent) · cognition and planning | [Arm](#arm) · manipulation | [FrontBackend](#frontbackend) · web and services |
+| [MachineLearning](#machinelearning) · model development | [Base](#base) · mobility | [Hardware](#hardware) · electronics and integration |
 
 ### [Agent](https://github.com/orgs/Island-Team/teams/agent)
 
