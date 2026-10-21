@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Aether EOS R, the embodied runtime</title>
+  <desc id="desc">Dark blue feature banner with the Aether EOS R name, three runtime pillars, and a connected robot action-gate motif.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#071A3D"/>
+      <stop offset="1" stop-color="#041027"/>
+    </linearGradient>
+    <linearGradient id="blue" x2="1" y2="0">
+      <stop stop-color="#10C4FF"/>
+      <stop offset="1" stop-color="#126BCE"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1C4E88" stroke-opacity=".26"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M0 294C219 247 318 343 549 297S916 224 1200 288" fill="none" stroke="#126BCE" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="42" y="38" width="166" height="29" rx="14.5" fill="#103864" stroke="#2F83CD"/>
+  <circle cx="57" cy="52.5" r="4.5" fill="#16D5F5"/>
+  <text x="70" y="57" fill="#D9EEFF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">PUBLIC RELEASE</text>
+  <text x="42" y="145" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800" letter-spacing="-3">AETHER</text>
+  <text x="42" y="221" fill="url(#blue)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">EOS R<tspan fill="#A9D9FF" font-size="27" letter-spacing="0">  /  01</tspan></text>
+  <text x="45" y="264" fill="#C8DDF1" font-family="Arial, Helvetica, sans-serif" font-size="20">The embodied runtime for IslandOS Aether</text>
+  <line x1="45" y1="297" x2="575" y2="297" stroke="#3A7AB9" stroke-opacity=".8"/>
+  <text x="45" y="329" fill="#9FC6E8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">PERCEIVE</text>
+  <circle cx="154" cy="324" r="3" fill="#16D5F5"/>
+  <text x="174" y="329" fill="#9FC6E8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">VALIDATE</text>
+  <circle cx="289" cy="324" r="3" fill="#16D5F5"/>
+  <text x="308" y="329" fill="#9FC6E8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">ACT</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="915" cy="178" r="137" stroke="#0964C0" stroke-opacity=".45" stroke-width="2"/>
+    <circle cx="915" cy="178" r="110" stroke="#10C4FF" stroke-opacity=".25" stroke-width="2"/>
+    <circle cx="915" cy="178" r="83" stroke="#19C9FF" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M686 178H797M1032 178h104M915 42v53M915 261v57" stroke="#168CF0" stroke-width="3"/>
+    <path d="M717 178l33-33h45M1063 178l-33 33h-30" stroke="#168CF0" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M915 115l55 21v43c0 43-29 69-55 83-26-14-55-40-55-83v-43z" fill="#0B2E5B" stroke="#26B9FF" stroke-width="4"/>
+    <path d="m892 179 17 17 33-37" stroke="#51D8FF" stroke-width="7"/>
+    <circle cx="686" cy="178" r="7" fill="#16D5F5" stroke="#6CE9FF" stroke-width="2"/>
+    <circle cx="1136" cy="178" r="7" fill="#16D5F5" stroke="#6CE9FF" stroke-width="2"/>
+    <circle cx="915" cy="42" r="6" fill="#16D5F5"/>
+    <circle cx="915" cy="318" r="6" fill="#16D5F5"/>
+  </g>
+  <circle cx="915" cy="178" r="83" fill="#10C4FF" opacity=".1" filter="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#245D9F" stroke-opacity=".65" stroke-width="2"/>
+</svg>

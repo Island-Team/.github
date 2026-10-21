@@ -31,6 +31,8 @@ We develop **IslandOS Aether**, an open platform that connects model-driven cogn
 
 ## IslandOS Aether
 
+<a href="https://github.com/Island-Team/Aether-EOS-R"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/aether-eos-feature.svg" width="100%" alt="Aether EOS R: the embodied runtime for IslandOS Aether. Perceive, validate, act."></a>
+
 Aether separates cognition from physical execution. The **EGI Agent** understands context, builds missions and plans, and requests typed primitives. **EOS** owns device integration, read-only body and scene state, and command admission through an action gate before hardware execution.
 
 **Public EOS source:** [Aether-EOS-R](https://github.com/Island-Team/Aether-EOS-R) launched with [Aether EOS 1.0.0](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0) on October 20, 2026. It includes a hardware-free demo profile, public ALSA/aplay, V4L2, and optional ROS 2 backends, Agent–EOS contracts, and a native skill SDK. Model services and deployment-specific vendor integrations are supplied separately.
