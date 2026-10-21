@@ -90,7 +90,7 @@ flowchart LR
       <p><code>Python 3.12+</code> · <code>gRPC</code> · <code>WebSocket</code></p>
     </td>
     <td width="50%" valign="top">
-      <p align="center"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/eos-logo.png" width="72" alt="EOS logo"></p>
+      <p align="center"><img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/eos-logo.png" width="88" alt="Aether EOS R logo"></p>
       <h3 align="center"><a href="https://github.com/Island-Team/Aether-EOS-R">Aether-EOS-R</a></h3>
       <p><strong>Embodied OS · execution and hard safety · v1.0.0</strong></p>
       <p>Connects robot devices and perception, exposes read-only state, validates commands at the action gate, and runs native skills. Includes a hardware-free demo and public ROS 2 and host-device adapters.</p>
