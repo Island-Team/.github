@@ -11,7 +11,7 @@
 We develop **IslandOS Aether**, an open platform that connects model-driven cognition to simulated and physical worlds through explicit contracts and controlled execution.
 
 [![Website](https://img.shields.io/badge/Website-os--island.com-126BCE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-island.com)
-[![Aether EOS](https://img.shields.io/badge/Release-Aether_EOS_1.0.0-071A3D?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0)
+[![Aether EOS release](https://img.shields.io/github/v/release/Island-Team/Aether-EOS-R?style=for-the-badge&label=Aether%20EOS&color=071A3D)](https://github.com/Island-Team/Aether-EOS-R/releases/latest)
 [![GitHub](https://img.shields.io/badge/Repositories-Island_Team-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Island-Team/repositories)
 
 <br><br>
@@ -33,7 +33,13 @@ We develop **IslandOS Aether**, an open platform that connects model-driven cogn
 
 Aether separates cognition from physical execution. The **EGI Agent** understands context, builds missions and plans, and requests typed primitives. **EOS** owns device integration, read-only body and scene state, and command admission through an action gate before hardware execution.
 
-**Current public EOS release:** [Aether EOS 1.0.0](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0) (published October 20, 2026). The [Aether-EOS-R source repository](https://github.com/Island-Team/Aether-EOS-R) includes a hardware-free demo profile, public ALSA/aplay, V4L2, and optional ROS 2 backends, Agent–EOS contracts, and a native skill SDK. Model services and deployment-specific vendor integrations are supplied separately.
+**Public EOS source:** [Aether-EOS-R](https://github.com/Island-Team/Aether-EOS-R) launched with [Aether EOS 1.0.0](https://github.com/Island-Team/Aether-EOS-R/releases/tag/v1.0.0) on October 20, 2026. It includes a hardware-free demo profile, public ALSA/aplay, V4L2, and optional ROS 2 backends, Agent–EOS contracts, and a native skill SDK. Model services and deployment-specific vendor integrations are supplied separately.
+
+<p align="center">
+  <a href="https://github.com/Island-Team/Aether-EOS-R/stargazers"><img alt="Live Aether-EOS-R star count" src="https://img.shields.io/github/stars/Island-Team/Aether-EOS-R?style=flat-square&amp;logo=github&amp;label=Stars&amp;color=126BCE"></a>
+  <a href="https://github.com/Island-Team/Aether-EOS-R/releases/latest"><img alt="Latest Aether-EOS-R release" src="https://img.shields.io/github/v/release/Island-Team/Aether-EOS-R?style=flat-square&amp;label=Latest%20release&amp;color=071A3D"></a>
+  <a href="https://github.com/Island-Team/Aether-EOS-R/commits/master/"><img alt="Most recent Aether-EOS-R commit" src="https://img.shields.io/github/last-commit/Island-Team/Aether-EOS-R/master?style=flat-square&amp;label=Updated&amp;color=126BCE"></a>
+</p>
 
 <table>
   <tr>
