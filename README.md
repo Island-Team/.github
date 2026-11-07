@@ -8,7 +8,7 @@
 
 [Website](https://os-island.com) · [IslandOS source](https://github.com/Island-Team/isos-aether) · [Repositories](https://github.com/orgs/Island-Team/repositories)
 
-<img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/island-team-hero.png" width="100%" alt="Island Team illustration connecting sensing, intelligence, guarded execution, and robotics">
+<img src="https://raw.githubusercontent.com/Island-Team/.github/master/assets/island-team-hero.png" width="720" alt="Island Team illustration connecting sensing, intelligence, guarded execution, and robotics">
 
 </div>
 
